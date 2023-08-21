@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  scheme:
+    container_name: scheme
+    image: stklos/stklos:latest
+    stdin_open: true # docker run -i
+    tty: true
+    volumes:
+      - ./src:/home
